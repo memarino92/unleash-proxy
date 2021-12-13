@@ -1,6 +1,6 @@
 const { createApp } = require('@unleash/proxy');
 
-const port = process.env.UNLEASH_PROXY_PORT;
+const port = process.env.PORT;
 
 const app = createApp({
     unleashUrl: process.env.UNLEASH_URL,
